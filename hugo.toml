@@ -9,3 +9,13 @@ title = 'My New Hugo Site'
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
     disable = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.primary]]
+  name = "Primary"
+  url = "/docs/"
+  identified = "primary-test"
+  weight = 10
+
